@@ -65,7 +65,7 @@ jobs:
  
      - name: Run JUnit Tests
  
-       run: hello world!
+       run: echo hello world!
  
 
  
