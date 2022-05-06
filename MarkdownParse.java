@@ -27,7 +27,7 @@ public class MarkdownParse {
                         System.out.println("Hi");
                         currentIndex = closeParen + 1;
                 }
-                else{
+                else{ 
                     toReturn.add(markdown.substring(openParen + 1, closeParen));
                     currentIndex = closeParen + 1;
                 }
@@ -48,3 +48,4 @@ public class MarkdownParse {
 	    System.out.println(links);
     }
 }
+//CHANGE
