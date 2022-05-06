@@ -65,7 +65,7 @@ jobs:
  
      - name: Run JUnit Tests
  
-       run: make test
+       run: hello world!
  
 
  
@@ -76,9 +76,6 @@ jobs:
 
        run: |
  
-          javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java
-          java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
-
-
+         make test
  
 
